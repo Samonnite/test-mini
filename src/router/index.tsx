@@ -246,7 +246,7 @@ export const Direction2Path = direction2PathCreater(Routers);
 export const useDirection = directionUserCreater(Direction2Path);
 
 const router = createBrowserRouter(Routers, {
-  basename: "/dapp",
+  basename: "/test-mini",
 });
 
 export const FuneverRouter = () => {

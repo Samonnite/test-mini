@@ -65,10 +65,10 @@ export default function RootLayout() {
             <Box minW="20">{t("邀请链接:")}</Box>
             <Box fontWeight="bold" mx="1">{`${
               window.location.host
-            }/dapp/home?ucode=${detail?.ucode || ""}`}</Box>
+            }/test-mini/home?ucode=${detail?.ucode || ""}`}</Box>
           </Flex>
           <CopyToClipboard
-            text={`${window.location.host}/dapp/home?ucode=${
+            text={`${window.location.host}/test-mini/home?ucode=${
               detail?.ucode || ""
             }`}
             onCopy={() =>

@@ -1,9 +1,11 @@
 import "utils/axios";
 import "./config/i18n";
 import { ColorModeScript } from "@chakra-ui/react";
+import WebApp from "@twa-dev/sdk";
 import * as ReactDOM from "react-dom/client";
 // import VConsole from "vconsole";
 
+WebApp.ready();
 import { App } from "./App";
 import "dayjs/locale/zh-cn";
 import reportWebVitals from "./reportWebVitals";

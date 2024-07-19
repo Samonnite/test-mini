@@ -2,7 +2,7 @@
   "name": "funever-front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/dapp/",
+  "homepage": "/test-mini/",
   "scripts": {
     "start": "env-cmd -f .env.test react-app-rewired start",
     "build:test": "react-app-rewired .env.test build",

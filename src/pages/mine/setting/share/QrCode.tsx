@@ -10,7 +10,7 @@ export default function Qrcode() {
   return (
     <Box w="66px" h="66px">
       <Canvas
-        text={`${window.location.host}/dapp/home?ucode=${
+        text={`${window.location.host}/test-mini/home?ucode=${
           userInfo?.ucode || ""
         }`}
         options={{
