@@ -6,6 +6,8 @@ import * as ReactDOM from "react-dom/client";
 // import VConsole from "vconsole";
 
 WebApp.ready();
+console.log(WebApp?.initDataUnsafe);
+
 import { App } from "./App";
 import "dayjs/locale/zh-cn";
 import reportWebVitals from "./reportWebVitals";
